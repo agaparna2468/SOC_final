@@ -1,0 +1,22 @@
+
+<div class="sidenav">
+<dl class="c_list">
+    <dt *ngFor="let list of c_list">
+      <button type="button">
+        
+        <span class="name">{{list.name}}</span>
+      </button>
+    </dt>
+  </dl>
+</div>
+
+<div class="content">Angular Material offers a wide variety of UI components based on the Material Design specification
+
+    <div class="grid-container">
+         
+        <div *ngFor="let list of c_list"><img src={{list.source}} width= "310"><div class="head1">{{list.name}}</div><div class="desc">{{list.description}}</div></div>
+    </div>
+
+    
+</div>
+<div class="bottomnav">ANGULAR</div>

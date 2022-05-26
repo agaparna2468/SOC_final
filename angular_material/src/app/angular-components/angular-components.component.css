@@ -1,0 +1,102 @@
+
+.c_list button {
+    border: none;
+    background-color: #f6f8f9;
+    padding: 10px 20px;
+    text-align: left;
+    width: 200px;
+    font-size: 16px;
+    
+    cursor: pointer;
+    color: #4c5457;
+  }
+.c_list button:hover {
+    color: black;
+    background-color: #d9dfe3;
+    left: .1em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position:fixed;
+    background-color: #ffffff;
+    overflow-x:hidden;
+ 
+     
+}
+
+
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: #f6f8f9;
+    font-size:25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    grid-template-rows: 270px 270px 270px 270px 270px 270px 270px 270px 270px 270px 270px 270px  ;
+    gap: 30px;
+    background-color:#f6f8f9 ; 
+    padding: 10px;
+
+
+    
+  }
+  .grid-container > div {
+    background-color:white;
+    
+    padding: 0px 0;
+    font-size: 30px;
+    cursor:pointer;
+  
+  }
+  
+  .grid-container > div:hover {
+    background-color:rgb(244, 239, 239);
+    
+    padding: 0px 0;
+    font-size: 30px;
+    cursor:pointer;
+  
+  }
+  
+div.head1{
+  text-align: left;
+  font-size: 70%;
+  padding:0 10px;
+}
+
+div.desc{
+  text-align: left;
+  font-size: 55%;
+  color:#646d70;
+  padding:0 10px;
+}
+ 
+.bottomnav{
+    background-color: blue;
+    color:white;
+    text-align: center;
+    
+    font-size:x-large;
+    height: 90px;
+    margin-left: 200px;
+
+}
+.topnav{
+  background-color: blue;
+  color:white;
+  text-align: center;
+
+  font-size:x-large;
+  height: 30px;
+  position: sticky;
+
+
+}
+
+  
